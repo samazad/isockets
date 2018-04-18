@@ -1,0 +1,33 @@
+version: "3"
+
+services:
+  isockgwy1:
+    image: samazad/isockets-gwy
+    command: ["/usr/bin/python","/isockets/isock_gwy.py","-i","1","-b","broker.mqttdashboard.com","-t","encyclopedia/temperature1"] 
+  isockgwy2:
+    image: samazad/isockets-gwy
+    command: ["/usr/bin/python","/isockets/isock_gwy.py","-i","2","-b","broker.mqttdashboard.com","-t","encyclopedia/temperature2"] 
+  isockgwy3:
+    image: samazad/isockets-gwy
+    command: ["/usr/bin/python","/isockets/isock_gwy.py","-i","3","-b","broker.mqttdashboard.com","-t","encyclopedia/temperature3"] 
+  isockgwy4:
+    image: samazad/isockets-gwy
+    command: ["/usr/bin/python","/isockets/isock_gwy.py","-i","4","-b","broker.mqttdashboard.com","-t","encyclopedia/temperature4"] 
+  isockgwy5:
+    image: samazad/isockets-gwy
+    command: ["/usr/bin/python","/isockets/isock_gwy.py","-i","5","-b","broker.mqttdashboard.com","-t","encyclopedia/temperature5"] 
+  isockgwy6:
+    image: samazad/isockets-gwy
+    command: ["/usr/bin/python","/isockets/isock_gwy.py","-i","6","-b","broker.mqttdashboard.com","-t","encyclopedia/temperature6"] 
+  isockgwy7:
+    image: samazad/isockets-gwy
+    command: ["/usr/bin/python","/isockets/isock_gwy.py","-i","7","-b","broker.mqttdashboard.com","-t","encyclopedia/temperature7"] 
+  isockgwy8:
+    image: samazad/isockets-gwy
+    command: ["/usr/bin/python","/isockets/isock_gwy.py","-i","8","-b","broker.mqttdashboard.com","-t","encyclopedia/temperature8"] 
+  isockgwy9:
+    image: samazad/isockets-gwy
+    command: ["/usr/bin/python","/isockets/isock_gwy.py","-i","9","-b","broker.mqttdashboard.com","-t","encyclopedia/temperature9"] 
+  isockgwy10:
+    image: samazad/isockets-gwy
+    command: ["/usr/bin/python","/isockets/isock_gwy.py","-i","10","-b","broker.mqttdashboard.com","-t","encyclopedia/temperature10"] 
